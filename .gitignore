@@ -1,0 +1,40 @@
+# Segredos (nunca versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Node / front-end
+node_modules/
+
+# Banco local e dados
+*.sqlite
+*.sqlite3
+*.db
+pgdata/
+
+# Logs
+*.log
+logs/
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
